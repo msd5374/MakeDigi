@@ -4,7 +4,7 @@
         <div class="text"> 
             <h1>Digitize Your Business</h1> 
         </div> 
-        <form name="form" method="POST" action="/thanks" data-netlify="true">
+        <form action="POST"  data-netlify="true">
         <div class="your-input"> 
             <div class="input"> 
                 <input type="text" name="Name" 
@@ -21,9 +21,16 @@
                   id="Please Specify Your Requirements" required /> 
               <label for="Please Specify Your Requirements">Please Specify Your Requirements</label> 
             </div> 
+            <div class="field">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
         </div> 
         <br/> 
-        <button type="submit">Submit</button>
+        <ul class="actions">
+          <li>
+            <button type="submit">Submit</button>
+          </li>
+        </ul>
       </form>
     </div> 
 </body> 
