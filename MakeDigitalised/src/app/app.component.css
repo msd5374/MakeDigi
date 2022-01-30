@@ -51,9 +51,9 @@
 } 
 .text p{ 
 
-    font-size: .8rem; 
+    font-size: .9rem; 
 
-    padding-top: 0.3rem; 
+    padding-top: 0.4rem; 
 } 
 .input { 
 
@@ -91,7 +91,7 @@
 
     left: 10px; 
 
-    font-size: 1.1rem; 
+    font-size: 1.5rem; 
 
     color: #130e0e; 
 
@@ -102,7 +102,7 @@
 
     top: 10%; 
 
-    font-size: .8rem; 
+    font-size: .9rem; 
 
     color: #000; 
 } 
@@ -114,7 +114,7 @@
 }  
 button { 
 
-    height: 50px; 
+    height: 40px; 
 
     background: #0A66C3; 
 
@@ -122,11 +122,19 @@ button {
 
     border: none; 
 
-    border-radius: 30px; 
+    border-radius: 20px; 
 
     color: #fff; 
 
-    font-size: 2rem; 
+    font-size: 1.5rem; 
 
     font-weight: bolder; 
+
+    position: relative; 
+
+    width: 100%; 
+
+    height: 40px; 
+
+    margin-bottom: 0.9em; 
 } 
