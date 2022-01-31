@@ -8,6 +8,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 
+
+import {environment} from '../environments/environment';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -17,7 +20,9 @@ import {MatIconModule} from '@angular/material/icon';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatFormFieldModule,
-    MatIconModule
+    MatIconModule,
+ 
+
   ],
   providers: [],
   bootstrap: [AppComponent]
