@@ -51,9 +51,11 @@
 } 
 .text p{ 
 
-    font-size: .9rem; 
+    font-size: 1rem; 
 
     padding-top: 0.4rem; 
+
+    color: #000; 
 } 
 .input { 
 
@@ -91,7 +93,7 @@
 
     left: 10px; 
 
-    font-size: 1.5rem; 
+    font-size: 1.1rem; 
 
     color: #130e0e; 
 

@@ -4,7 +4,7 @@
         <div class="text"> 
             <h1>Digitize Your Business</h1> 
         </div> 
-        <form data-netlify="true" name="contactInfo" hidden>
+        <form>
         <div class="your-input"> 
             <div class="input"> 
                 <input type="text" name="Name" 
@@ -27,6 +27,27 @@
       </form>
     </div>  
 
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <div class="your-input"> 
+            <div class="input"> 
+                <input type="text" name="Name" 
+                    id="Name" required /> 
+                <label for="Name">Name</label> 
+            </div> 
+            <div class="input"> 
+              <input type="text" name="email" 
+                  id="email" required /> 
+              <label for="email">Email</label> 
+            </div> 
+            <div class="input"> 
+              <input type="text" name="Please Specify Your Requirements" 
+                  id="Please Specify Your Requirements" required /> 
+              <label for="Please Specify Your Requirements">Please Specify Your Requirements</label> 
+            </div> 
+        </div> 
+        <br/>   
+            <button type="submit">Submit</button>
+      </form>
   <!--  <form name="contact" method="POST" data-netlify="true">
       <p>
         <label>Your Name: <input type="text" name="name" /></label>   
